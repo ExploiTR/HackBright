@@ -1,3 +1,4 @@
+![Alt text](https://raw.githubusercontent.com/ExploiTR/HackBright/master/app/src/main/res/drawable/ic_launcher.png)
 # HackBright
 Override factory brigtness settings with ROOT Access [Android]
 
