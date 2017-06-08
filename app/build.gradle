@@ -28,4 +28,5 @@ dependencies {
     compile 'me.tankery.lib:circularSeekBar:1.1.3'
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
     compile 'org.adw.library:discrete-seekbar:1.0.1'
+    compile 'eu.chainfire:libsuperuser:201501111220'
 }
