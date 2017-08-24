@@ -2,7 +2,7 @@
 # HackBright
 Override factory brigtness settings with ROOT Access [Android]
 
-### NOT WORKS WITH EVERY ANDROID DEVICES !! 
+### NOT WORKS WITH EVERY ANDROID DEVICES !! [Rarely]
 
 # How to add support for your device
 
