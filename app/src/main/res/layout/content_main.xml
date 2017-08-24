@@ -13,6 +13,9 @@
         android:layout_height="wrap_content"
         app:dsb_min="0"
         app:dsb_max="255"
+        app:dsb_indicatorColor="@color/indicatorColor"
+        app:dsb_progressColor="@color/progressColor"
+        app:dsb_trackColor="@color/trackColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
@@ -69,7 +72,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Curbrightesn"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -79,8 +82,8 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:src="@drawable/ellipsis"
         android:id="@+id/gifView"
         android:layout_marginRight="8dp"

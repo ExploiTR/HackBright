@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#C2185B</color>
-    <color name="colorPrimaryDark">#880E4F</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#263238</color>
+    <color name="trackColor">#263238</color>
+    <color name="indicatorColor">#DD2C00</color>
+    <color name="progressColor">#263238</color>
 </resources>
