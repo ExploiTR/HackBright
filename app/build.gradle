@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "app.exploitr.hackbright"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 710200927
+        versionName "1.3"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'me.tankery.lib:circularSeekBar:1.1.3'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+    compile 'org.adw.library:discrete-seekbar:1.0.1'
+    compile 'eu.chainfire:libsuperuser:1.0.0.201704021214'
+}
